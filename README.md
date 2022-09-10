@@ -49,14 +49,14 @@ Vector [`v0.9.0`](https://github.com/scikit-hep/vector/releases/tag/v0.9.0) is o
 - Bug fixes: type checks, fix nan_to_num, …
 - Maintenance: hatchling backend, support awkward._v2 in tests, build and test on Python 3.10 and 3.11-dev, …
 
-More about `v0.9.0` here - https://vector.readthedocs.io/en/latest/changelog.html#version-0-9 
+More about `v0.9.0` here - https://vector.readthedocs.io/en/latest/changelog.html#version-0-9
 
 ---
 
 Vector [`v0.10.0`](https://github.com/scikit-hep/vector/releases/tag/v0.10.0) is out too!
 - Removed support for Python 3.6
 
-More about `v0.10.0` here - https://vector.readthedocs.io/en/latest/changelog.html#version-0-10 
+More about `v0.10.0` here - https://vector.readthedocs.io/en/latest/changelog.html#version-0-10
 
 ## Near future development plans
 
@@ -65,7 +65,7 @@ More about `v0.10.0` here - https://vector.readthedocs.io/en/latest/changelog.ht
 - Benchmarks against Root
 - A complete `awkward` `v2` support (scheduled for December)
 - NumPy-Numba backend
-- Other potential backends - 
+- Other potential backends -
 
 Vector was scheduled to have a major release (`v1.0.0`) before `PyHEP 2022`, but that was unfortunately delayed. A major release can be expected in October, which would primarily be introducing new constructors.
 
