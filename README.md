@@ -39,7 +39,7 @@ There are two ways to follow along (or run this notebook after the talk) -
     - Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saransh-cpp/PyHEP22-Constructing-HEP-vectors-and-analyzing-HEP-data-using-Vector/blob/main/talk.ipynb)
 
-We will be directly importing `vector`, `awkward`, `numpy`, `numba`, and `uproot` in this tutorial. Hence, a user must install these packages if this notebook is being run locally or on Google Colab.
+We will be directly importing `vector`, `awkward`, `numpy`, `numba`, `uproot`, and `scikit-hep-testdata` in this tutorial. Hence, a user must install these packages if this notebook is being run locally or on Google Colab.
 
 ## Recent developments
 
