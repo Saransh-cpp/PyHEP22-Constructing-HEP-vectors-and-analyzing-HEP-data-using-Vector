@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.3.0
+    rev: v4.4.0
     hooks:
     - id: check-added-large-files
     - id: check-case-conflict
@@ -17,23 +17,23 @@ repos:
     - id: trailing-whitespace
 
 -   repo: https://github.com/PyCQA/flake8
-    rev: 5.0.4
+    rev: 6.0.0
     hooks:
     - id: flake8
 
 -   repo: https://github.com/pycqa/isort
-    rev: 5.10.1
+    rev: v5.11.3
     hooks:
     - id: isort
 
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v3.1.0
+    rev: v3.3.1
     hooks:
     - id: pyupgrade
       args: ["--py36-plus"]
 
 -   repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.5.2
+    rev: 1.5.3
     hooks:
     - id: nbqa-pyupgrade
       additional_dependencies: [pyupgrade==2.19.4]
