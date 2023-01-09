@@ -33,7 +33,7 @@ repos:
       args: ["--py36-plus"]
 
 -   repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.6.0
+    rev: 1.6.1
     hooks:
     - id: nbqa-pyupgrade
       additional_dependencies: [pyupgrade==3.3.1]
